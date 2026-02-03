@@ -1,0 +1,10 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Athiti:wght@400;500;700&display=swap");
+@import url(./variables.css);
+@import url(./layout.css);
+@import url(./header.css);
+@import url(./hero.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+@import url(./mediaqueries.css);

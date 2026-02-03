@@ -1,0 +1,140 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+
+main section {
+  margin: 0px 0px 60px 0px;
+
+  h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+
+    span {
+      color: var(--primary-color);
+    }
+  }
+}
+
+#aboutus .container {
+  display: flex;
+  flex-direction: column;
+
+  figure {
+    padding: var(--padding);
+
+    img {
+      border-top: 10px solid var(--primary-color);
+      border-bottom: 10px solid white;
+      border-left: 10px solid var(--primary-color);
+      border-right: 10px solid white;
+    }
+  }
+
+  div {
+    text-align: center;
+
+    p {
+      color: var(--text-color);
+      margin-bottom: 10px;
+      line-height: 20px;
+    }
+
+    h5 {
+      font-size: 110%;
+      margin-bottom: var(--padding);
+    }
+  }
+}
+
+#banner {
+  background-image: url(../images/qt-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  padding: 100px 0px;
+  text-align: center;
+  color: white;
+
+  blockquote {
+    font-style: italic;
+    font-family: var(--secondary-font);
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  author {
+    font-size: 20px;
+  }
+}
+
+#menu {
+  padding: 1.25rem;
+  h2 {
+    margin-bottom: 2.25rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: var(--gap);
+    article {
+      position: relative;
+      overflow: hidden;
+      .content {
+        position: absolute;
+        background-color: var(--primary-color);
+        width: 100%;
+        color: white;
+        padding: 0.625rem;
+        transition: 0.5s;
+      }
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 2rem;
+        font-family: var(--secondary-font);
+      }
+      &:hover .content {
+        transform: translateY(-85px);
+      }
+    }
+  }
+}
+
+#contacto {
+  background-color: var(--primary-color);
+  padding: 1.25rem;
+  margin-bottom: 0px;
+
+  .icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    a {
+      color: white;
+      text-decoration: none;
+
+      i {
+        background-color: white;
+        color: var(--primary-color);
+        font-size: 1.5rem;
+        padding: 12px;
+        margin-right: 10px;
+        border-radius: 50%;
+      }
+    }
+
+    span {
+      color: white;
+    }
+  }
+
+  .map {
+    margin: 1.25rem 0px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+}

@@ -1,0 +1,70 @@
+@import url(./variables.css);
+
+@media (width >=992px) {
+  header .hamburger {
+    display: none;
+  }
+
+  header nav {
+    width: calc(100% - 200px);
+    padding: 10px 0px;
+
+    ul {
+      display: flex;
+      justify-content: end;
+
+      li {
+        margin: 0px 10px;
+      }
+    }
+  }
+
+  #aboutus .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    figure,
+    div {
+      width: 50%;
+    }
+  }
+}
+
+@media (min-width: 62rem) {
+  #menu .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width < 992px) {
+  header {
+    height: 320px;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0rem 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    background-color: var(--secondary-color);
+  }
+
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    nav {
+      width: 100%;
+      padding: 1.5625rem 0;
+    }
+  }
+
+  .textomovil {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .icons span {
+    display: none;
+  }
+}
