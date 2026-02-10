@@ -60,4 +60,5 @@ Si tienes alguna pregunta o deseas más información sobre el proyecto, no dudes
 
 - **Autor:** Elia Galiana
 - **Porfolio web:** <https://eliagaliana.github.io/elia-galiana.github.io/>
-- **LinkedIn:** www.linkedin.com/in/elia-galiana-sanabria-74992431a
+- **LinkedIn:** www.linkedin.com/in/elia-galiana-sanabria
+
